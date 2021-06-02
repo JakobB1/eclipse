@@ -5,7 +5,7 @@ public class Hello {
 		System.out.println("Hello Edunova");
 		System.out.println("Osijek");
 		System.out.println("Edunova");
-		System.out.println("Vjezba");
+        System.out.println("Vjezba");
 		
 	}
 

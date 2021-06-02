@@ -1,9 +1,8 @@
 package edunova;
 
-public class Test {
+public class Skola {
 
 	public static void main(String[] args) {
 		System.out.println("Hello");
 	}
-	
 }

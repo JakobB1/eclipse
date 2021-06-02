@@ -6,7 +6,6 @@ public class Hello {
 		System.out.println("Osijek");
 		System.out.println("Edunova");
 		System.out.println("Vjezba");
-		System.out.println("Zagreb");
 		
 	}
 

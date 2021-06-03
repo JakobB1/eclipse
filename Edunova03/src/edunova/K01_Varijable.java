@@ -23,6 +23,7 @@ public class K01_Varijable {
 		int v=2,p=0;
 		
 		
+		
 	
 	}
 

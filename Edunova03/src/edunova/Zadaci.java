@@ -76,6 +76,7 @@ public class Zadaci {
 		// i jedan decimalni broj
 		// Program ispisuje zbroj dva ucitana broja
 		
+		
 		int d; 
 		double e;
 		

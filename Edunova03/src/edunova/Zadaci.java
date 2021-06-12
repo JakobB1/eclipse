@@ -71,6 +71,24 @@ public class Zadaci {
 
 		System.out.println("Prva znamenka je " + (broj / 10));
 		
+		// Zadatak za zagrijavanje 
+        // Program od korisnika ucitava jedan cijeli
+		// i jedan decimalni broj
+		// Program ispisuje zbroj dva ucitana broja
+		
+		int d; 
+		double e;
+		
+		d = Integer.parseInt(
+				JOptionPane.showInputDialog("Upiši cijeli broj")
+				);
+		
+		e = Double.parseDouble(
+				JOptionPane.showInputDialog("Upiši decimalni broj")
+				);
+		
+		System.out.println(d + e);
+		
 		
 	}
 

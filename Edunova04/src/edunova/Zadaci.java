@@ -120,7 +120,7 @@ public class Zadaci {
 		// i razlika prvog i drugog manja od 0 program ispisuje
 		// Osijek, inaèe ispisuje Donji Miholjac.
 
-		int broj1, broj2, g;
+		int broj1, broj2;
 
 		broj1 = Integer.parseInt(JOptionPane.showInputDialog("Prvi cijeli broj"));
 

@@ -51,7 +51,7 @@ public class Zadaci {
 
 		if (d < e && d < f) {
 			System.out.println(d);
-		} else if (e < f && e < f) {
+		} else if (e < f ) {
 			System.out.println(e);
 		} else {
 			System.out.println(f);

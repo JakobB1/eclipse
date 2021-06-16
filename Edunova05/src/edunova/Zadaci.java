@@ -25,8 +25,19 @@ public class Zadaci {
 		decimalni[4] = Float.parseFloat(
 				JOptionPane.showInputDialog("Peti decimalni")
 				);
-
+		
 		System.out.println("Prvi broj je " + decimalni[0] + " a zanji je " + decimalni[4]);
+		
+		// Drugi nacin
+		float[] dec = {
+				Float.parseFloat(JOptionPane.showInputDialog("dec1")),
+				Float.parseFloat(JOptionPane.showInputDialog("dec2")),
+				Float.parseFloat(JOptionPane.showInputDialog("dec3")),
+				Float.parseFloat(JOptionPane.showInputDialog("dec4")),
+				Float.parseFloat(JOptionPane.showInputDialog("dec5"))
+		};
+
+		System.out.println(dec[0] + " - " + dec[4]);
 
 		// Program preko args parametara prima dva cijela broja
 		// Program ispisuje zbroj primljenih brojeva

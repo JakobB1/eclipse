@@ -45,6 +45,12 @@ public class Zadaci {
 		// Korisnik unosi cijeli broj
 		// Program ispisuje broj 7 jedno ispod drugog
 		// onoliko puta koliko je korisnik unio
+		int cijeliBroj = Integer.parseInt(
+				JOptionPane.showInputDialog("Cijeli broj"));
+		
+		for(int i=0; i<cijeliBroj; i++) {
+			System.out.println(7);
+		}
 
 		// program ispisuje sve parne brojeve od 1 do 55
 		// U petlji obavezno koristiti vrijednosti 1 i 55
@@ -56,6 +62,7 @@ public class Zadaci {
 
 		// Program unosi 5 cijelih brojeva u niz
 		// Program ispisuje najveæi uneseni broj
+		
 
 	}
 }

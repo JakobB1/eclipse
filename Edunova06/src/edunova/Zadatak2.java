@@ -10,8 +10,8 @@ public class Zadatak2 {
 		
 		float a,b;
 		
-		a = Float.parseFloat(JOptionPane.showInputDialog("Unesite prvi broj"));
-		b = Float.parseFloat(JOptionPane.showInputDialog("Unesite drugi broj"));
+		a = Float.parseFloat(JOptionPane.showInputDialog("Unesite prvi dec broj"));
+		b = Float.parseFloat(JOptionPane.showInputDialog("Unesite drugi dec broj"));
 		
 		if (a>b) {
 			System.out.println(a);

@@ -2,7 +2,7 @@ package edunova;
 
 import javax.swing.JOptionPane;
 
-public class Zadatak2 {
+public class Zadatak02 {
 	
 	public static void main(String[] args) {
 

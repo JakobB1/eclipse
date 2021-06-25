@@ -11,6 +11,7 @@ public class Zadatak7 {
 	int x = 273532542;
 	boolean primBroj = true;
 	for (int i = 2; i<x ; i++) {
+		
 		if (x % i ==0) {
 			primBroj = false;
 			break;

@@ -62,9 +62,6 @@ public class Zadaci {
 		 */
 
 		// Program unosi 5 cijelih brojeva u niz
-		// Program ispisuje najveæi uneseni broj
-		
-
-		
+		// Program ispisuje najveæi uneseni broj	
 	}
 }

@@ -130,7 +130,6 @@ public class Zadaci {
 			System.out.println("Osijek");
 		} else {
 			System.out.println("Donji Miholjac");
-
 		}
 	}
 }

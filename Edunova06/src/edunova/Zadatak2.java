@@ -19,5 +19,6 @@ public class Zadatak2 {
 		} else { 
 			System.out.println(b);
 		}
+		
 	}
 }

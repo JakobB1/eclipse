@@ -1,6 +1,6 @@
 package edunova;
 
-public class Zadatak8 {
+public class Zadatak08 {
 	
 	public static void main(String[] args) {
 		

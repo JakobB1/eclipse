@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 import javax.swing.JOptionPane;
 
-public class Zadatak6 {
+public class Zadatak06 {
 	
 	public static void main(String[] args) {
 		

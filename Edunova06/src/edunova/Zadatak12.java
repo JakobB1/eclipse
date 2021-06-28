@@ -6,6 +6,6 @@ public class Zadatak12 {
 		
 	// Program ispisuje "Edunova" (ispisuju se i navodnici)
 
-	System.out.println("\"Edunova\"");	
-}
+	System.out.println("\"Edunova\"");
+	}
 }

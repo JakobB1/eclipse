@@ -1,8 +1,19 @@
 package edunova;
 
 public class Zadatak02 {
-	
-	// s pomoæu do while petlje zbrojite prvih 100 brojeva
-	// ispišite rzultat
 
+	public static void main(String[] args) {
+
+		// s pomoÄ‡u do while petlje zbrojite prvih 100 brojeva
+		// ispiÅ¡ite rezultat
+		
+		int i = 0;
+		int sum = 0;
+		
+		do {
+			sum +=i;
+		} while (++i <=100);
+		
+		System.out.println(sum);
+	}
 }

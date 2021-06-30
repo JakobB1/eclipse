@@ -15,5 +15,6 @@ public class Zadatak02 {
 		} while (++i <=100);
 		
 		System.out.println(sum);
+		
 	}
 }

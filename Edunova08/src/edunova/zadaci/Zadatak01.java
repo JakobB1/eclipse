@@ -8,7 +8,7 @@ public class Zadatak01 {
 	
 	// Metodu pozvati iz main metode
 
-	private static int suma(int[] brojevi) {
+	/*private static int suma(int[] brojevi) {
 		int suma=0;
 		for(int i: brojevi) {
 			suma+=i;
@@ -18,5 +18,19 @@ public class Zadatak01 {
 	public static void main(String[] args) {
 		int[] niz = {3,4,2,4,4,2,1};
 		System.out.println(suma(niz));
+		
+	*/	
+	
+	int sum = 0;
+	
+	public int suma(int[] niz) {
+		
+		for(int i=0; i<niz.length; i++) {
+			sum+= niz[i];
+		}
+		
+		return sum;
+		
 	}
-}
+	}
+

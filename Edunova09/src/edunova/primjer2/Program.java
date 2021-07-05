@@ -14,11 +14,11 @@ public class Program {
 	
 	private void ispisiDetalje() {
 		// ispiši broj stanovnika mjesta
-
+        System.out.println(mjesto.getBrojStanovnika());
 		// ispiši naziv mjesta
-
+        System.out.println(mjesto.getNaziv());
 		// ispiši naziv županije
-
+        System.out.println(mjesto.getZupanija().getNaziv());
 	}
 
 	private void ucitajMjesto() {

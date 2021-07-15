@@ -1,4 +1,4 @@
- package edunova;
+package edunova;
 
 public class Smjer {
 	

@@ -1,6 +1,6 @@
 package edunova;
 
-public class Predavac extends Osoba{
+public class Predavac extends Osoba {
 	
 	private String iban;
 
@@ -11,7 +11,6 @@ public class Predavac extends Osoba{
 	public void setIban(String iban) {
 		this.iban = iban;
 	}
-	
 	
 
 }

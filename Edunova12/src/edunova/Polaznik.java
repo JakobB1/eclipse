@@ -1,17 +1,15 @@
 package edunova;
 
-public class Polaznik extends Osoba{
+public class Polaznik extends Osoba {
 	
-	private String brojugovora;
+	private String brojUgovora;
 
-	public String getBrojugovora() {
-		return brojugovora;
+	public String getBrojUgovora() {
+		return brojUgovora;
 	}
 
-	public void setBrojugovora(String brojugovora) {
-		this.brojugovora = brojugovora;
+	public void setBrojUgovora(String brojUgovora) {
+		this.brojUgovora = brojUgovora;
 	}
 	
-	
-
 }

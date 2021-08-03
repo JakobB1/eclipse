@@ -22,7 +22,7 @@ public class Ulaz {
 						scanner.nextLine());
 				if (broj<min || broj>max) {
 					System.out.println("Broj ne smije biti manji od " + min
-							+ " ili veæi od " + max);
+							+ " ili veÄ‡i od " + max);
 					continue;
 				}
 				break;
@@ -67,7 +67,7 @@ public class Ulaz {
 						scanner.nextLine());
 				if (broj<min || broj>max) {
 					System.out.println("Broj ne smije biti manji od " + min
-							+ " ili veæi od " + max);
+							+ " ili veÄ‡i od " + max);
 					continue;
 				}
 				break;

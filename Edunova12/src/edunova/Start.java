@@ -19,7 +19,7 @@ public class Start {
 		System.out.println(" IZBORNIK ");
 		System.out.println(" 1. Smjerovi");
 		System.out.println(" 2. Polaznici");
-		System.out.println(" 3. Predavaèi");
+		System.out.println(" 3. Predavaï¿½i");
 		System.out.println(" 4. Grupe");
 		System.out.println(" 5. Izlaz iz programa");
 		ucitajGlavnuAkciju();
@@ -31,14 +31,14 @@ public class Start {
 			smjerIzbornik();
 			break;
 		case 5:
-			System.out.println("Program je završio, doviðenja!");
+			System.out.println("Program je zavrï¿½io, doviï¿½enja!");
 			return;
 		}
 		
 	}
 	
 	///////////
-	//// POÈETAK SMJER
+	//// POï¿½ETAK SMJER
 	///////////
 
 	private void smjerIzbornik() {
@@ -47,7 +47,7 @@ public class Start {
 		System.out.println("Odaberite akciju");
 		System.out.println(" 1. Pregled unesenih smjerova");
 		System.out.println(" 2. Unos novog smjera");
-		System.out.println(" 3. Promjena postojeæeg smjera");
+		System.out.println(" 3. Promjena postojeï¿½eg smjera");
 		System.out.println(" 4. Brisanje smjera");
 		System.out.println(" 5. Povratak u prethodni izbornik");
 		smjerUcitajAkciju();
@@ -89,9 +89,10 @@ public class Start {
 		smjerovi.add(s);
 		smjerIzbornik();
 	}
+	
 
 	private Smjer smjerPostaviVrijednosti(Smjer s) {
-		s.setSifra(Ulaz.ucitajInt("Unesi šifru smjera: ", 
+		s.setSifra(Ulaz.ucitajInt("Unesi ï¿½ifru smjera: ", 
 				"Niste unijeli cijeli broj", 1, 
 				Integer.MAX_VALUE));
 		s.setNaziv(Ulaz.ucitajString("Unesi naziv smjera: ",
@@ -126,7 +127,7 @@ public class Start {
 	}
 	
 	///////////
-	//// POÈETAK SMJER
+	//// POï¿½ETAK SMJER
 	///////////
 
 	public static void main(String[] args) {
